@@ -5,4 +5,3 @@ nome = 'Manoel'
 
 print(nome)
 
-
