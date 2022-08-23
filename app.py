@@ -7,3 +7,5 @@ nome = 'Manoel'
 
 print(nome)
 
+
+
