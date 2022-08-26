@@ -6,6 +6,3 @@ print('la la la')
 nome = 'Manoel'
 
 print(nome)
-
-
-
