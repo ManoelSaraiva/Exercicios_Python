@@ -1,5 +1,5 @@
 """
-Classe para realização de sorteio de jogos Lotofácil
+Classe para realização de sorteio de jogos Lotofácil.
 """
 import random
 
