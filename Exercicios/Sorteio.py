@@ -44,7 +44,7 @@ class Sorteio:
             )
         return self.__jogos
 
-    def __sorteio_aleatorio(self, dezenas):
+    def __sorteio_aleatorio(self, dezenas) -> list:
         self.__sorteio = []
         for _ in range(15):
             self.__sorteio.append(
@@ -55,5 +55,5 @@ class Sorteio:
 
 
 if __name__ == '__main__':
-    dezenas2 = Sorteio()
-    print(dezenas2.gerar_jogos(5))
+	dezenas2 = Sorteio()
+    print(dezenas2.gerar_jogos()))
