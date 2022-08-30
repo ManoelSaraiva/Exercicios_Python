@@ -11,4 +11,4 @@ Escreva um programa que leia um valor em metros e o exiba convertido em milímet
 medida_metros = float(input('Digite a quantidade de metros: ')) 
 
 
-print(f'A quantidade de {medida_metros} metros equivale a {medida_metros * 1000} milimetros')
+print(f'A quantidade de {medida_metros} metros equivale a {int(medida_metros * 1000)} milimetros')
