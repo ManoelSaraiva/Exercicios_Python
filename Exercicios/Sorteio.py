@@ -9,9 +9,9 @@ class Sorteio:
         self.__jogos = None
         self.DENZENAS_LOTOFACIL = None
 
-    def gerar_jogos(self, qtd=1):
+    def gerar_jogos(self, qtd_jogos=1):
         self.__jogos = []
-        for x in range(qtd):
+        for jogo in range(qtd_jogos):
             self.__DENZENAS_LOTOFACIL = [
                 1,
                 2,
@@ -40,11 +40,11 @@ class Sorteio:
                 25,
             ]
             self.__jogos.insert(
-                x, self.__sorteio_aleatorio(self.__DENZENAS_LOTOFACIL)
+                jogo, self.__sorteio_aleatorio(self.__DENZENAS_LOTOFACIL)
             )
         return self.__jogos
 
-    def __sorteio_aleatorio(self, dezenas) -> list:
+    def __sorteio_aleatorio(self, dezenas: list) -> list:
         self.__sorteio = []
         for _ in range(15):
             self.__sorteio.append(
@@ -55,5 +55,7 @@ class Sorteio:
 
 
 if __name__ == '__main__':
-	dezenas2 = Sorteio()
-    print(dezenas2.gerar_jogos()))
+    dezenas2 = Sorteio()
+
+    print(dezenas2.gerar_jogos())
+    print(type(dezenas2.gerar_jogos()))
