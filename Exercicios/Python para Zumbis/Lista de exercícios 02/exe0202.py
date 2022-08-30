@@ -1,7 +1,9 @@
 '''
-Python Zumbi
+Python para Zumbis - Fernando Masanori
 
 Lista 2 - Exercício 02
+
+Determine se um ano é bissexto. Verifique no Google como fazer isso...
 
 '''
 

@@ -1,7 +1,9 @@
 '''
-Python Zumbi
+Python para Zumbis - Fernando Masanori
 
 Lista 2 - Exercício 04
+
+Faça um Programa que leia três números e mostre o maior deles.
 
 '''
 
@@ -9,7 +11,8 @@ numero_01 = int(input('Digite o primeiro numero: '))
 numero_02 = int(input('Digite o segundo numero: '))
 numero_03 = int(input('Digite o terceiro numero: '))
 
-print(f'\nNumero A: {numero_01} , Numero B: {numero_02} e Numero C: {numero_03} \n')
+print(
+    f'\nNumero A: {numero_01} , Numero B: {numero_02} e Numero C: {numero_03} \n')
 
 if numero_01 > numero_02 and numero_01 > numero_03:
     print(f'O numero A {numero_01} é o maior')
