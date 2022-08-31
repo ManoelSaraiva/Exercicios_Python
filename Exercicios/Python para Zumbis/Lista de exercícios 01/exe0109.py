@@ -9,3 +9,12 @@ usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcu
 sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por km rodado
 
 '''
+
+
+km_percorridos = float(input('Qual a quilometragem percorrida ? '))
+
+dias_de_aluguel = int(input('Digite a quantidade de dias de aluguel '))
+
+
+print(
+    f'A diária de aluguel foi {dias_de_aluguel * 60} e o valor dos km percorridos {km_percorridos * 0.15}')

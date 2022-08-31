@@ -8,3 +8,9 @@ Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a ve
 esperada para a viagem.
 
 '''
+
+
+distancia = int(input('Qual distancia ate o destino ? '))
+velocidade_media = int(input('Qual a velocidade media ? '))
+
+print(f'O tempo de viagem será: {distancia / velocidade_media}')
