@@ -19,3 +19,21 @@ d. - Sindicato ( 5%) : R$
 e. = Salário Liquido : R$
 
 '''
+
+
+salario_hora = float(input('Qual o valor do salario hora ? '))
+horas_trabalhando = int(
+    input('Qual a quantidade de horas trabalhadas no mês: '))
+
+salario_bruto = salario_hora * horas_trabalhando
+valor_ir = salario_bruto * (11 / 100)
+valor_inss = salario_bruto * (8 / 100)
+valor_sindicato = salario_bruto * (5 / 100)
+salario_liquido = salario_bruto - (valor_ir + valor_inss + valor_sindicato)
+
+print('')
+print(f'Salario bruto = {salario_bruto}')
+print(f'IR = {valor_ir}')
+print(f'INSS =  {valor_inss}')
+print(f'Sindicato = {valor_sindicato}')
+print(f'Salario liquido = {salario_liquido}')
